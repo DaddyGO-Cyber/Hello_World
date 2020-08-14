@@ -1,0 +1,146 @@
+body {background-color:lemonchiffon;
+}
+button {
+    border-radius: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+#shelf {
+    border: 3px solid black;
+    height: 500px;
+    width: 500px;
+    margin: auto;
+    border-radius: 99%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hour {
+  height: 3px;
+  width: 330px;
+  border: 0px;
+  transform: rotateZ(0deg);
+  margin: 0px 0px 0px 0px;
+  transform: rotateZ(0deg);
+}
+
+#minute{
+    position: relative;
+    height: 3px;
+    width: 380px;
+    border: 0px;
+    margin: 0px 0px 0px 0px;
+    transform: rotateZ(176deg);
+    top: -3px;
+}
+
+#second{
+    position: relative;
+    height: 3px;
+    width: 450px;
+    border: 0px;
+    top: -6px;
+    margin: 0px 0px 0px 0px;
+    transform: rotateZ(80deg);
+}
+
+#h2 {
+
+    width: 50%;
+    height: 100%;
+    border: 0px;
+}
+#h1 {
+    background-color: black;
+    width: 50%;
+    height: 100%;
+    border: 0px;
+}
+
+#m1{
+    background-color: green;
+    width: 50%;
+    height: 100%;
+    border: 0px;
+
+}
+#m2{
+    width: 50%;
+    height: 100%;
+    border: 0px;
+}
+#s1{background-color: red;
+    width: 50%;
+    height: 100%;
+    border: 0px;
+
+}
+#s2{
+    width: 50%;
+    height: 100%;
+    border: 0px;
+
+}
+#a {
+  
+    height: 6px;
+    width: 501px;
+    display: flex;
+    position: relative;
+    bottom: -4px;
+   
+}
+#b {
+  
+    height: 6px;
+    width: 501px;
+    display: flex;
+    position: relative;
+    bottom: -4px;
+    transform: rotateZ(90deg);
+}
+#c {
+  
+    height: 1.5px;
+    width: 501px;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    transform: rotateZ(30deg);
+}
+#d {
+  
+    height: 1.5px;
+    width: 501px;
+    display: flex;
+    position: relative;
+    bottom: 0px;
+    transform: rotateZ(60deg);
+}
+#e {
+  
+    height: 1.5px;
+    width: 501px;
+    display: flex;
+    position: relative;
+    bottom: 2px;
+    transform: rotateZ(120deg);
+}
+#f {
+  
+    height: 1.5px;
+    width: 501px;
+    display: flex;
+    position: relative;
+    bottom: 2px;
+    transform: rotateZ(150deg);
+}
+.a1 { background-color: black; flex: 3%;  
+        }
+
+.a2 { flex: 94%;
+        }
+.a3 {
+    background-color: black; flex: 3%;;
+        }
